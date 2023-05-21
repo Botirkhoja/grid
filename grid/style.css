@@ -1,0 +1,33 @@
+.card{
+    width: 300px;
+    background-color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+img{
+    width: 150px;
+}
+
+.ota{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+@media only screen and (max-width:1607px){
+    .ota{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media only screen and (max-width:1230px){
+    .ota{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width:924px){
+    .ota{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
